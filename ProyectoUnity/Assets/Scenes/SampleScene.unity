@@ -214,7 +214,6 @@ GameObject:
   m_Component:
   - component: {fileID: 18934569}
   - component: {fileID: 18934570}
-  - component: {fileID: 18934571}
   m_Layer: 0
   m_Name: FalseAlarm4
   m_TagString: Untagged
@@ -292,19 +291,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &18934571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18934568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!1 &29397318 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -4648,7 +4634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!1 &213249117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4660,7 +4646,6 @@ GameObject:
   - component: {fileID: 213249118}
   - component: {fileID: 213249119}
   - component: {fileID: 213249121}
-  - component: {fileID: 213249120}
   m_Layer: 0
   m_Name: Door (13)
   m_TagString: Untagged
@@ -4738,19 +4723,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &213249120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213249117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &213249121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4763,7 +4735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &225545521
 GameObject:
   m_ObjectHideFlags: 0
@@ -5302,7 +5274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 4
 --- !u!1 &226929966
 GameObject:
   m_ObjectHideFlags: 0
@@ -5314,7 +5286,6 @@ GameObject:
   - component: {fileID: 226929967}
   - component: {fileID: 226929968}
   - component: {fileID: 226929970}
-  - component: {fileID: 226929969}
   m_Layer: 0
   m_Name: Door (10)
   m_TagString: Untagged
@@ -5392,19 +5363,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &226929969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226929966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &226929970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5417,7 +5375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!4 &250584838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -5517,7 +5475,6 @@ GameObject:
   - component: {fileID: 459307419}
   - component: {fileID: 459307420}
   - component: {fileID: 459307422}
-  - component: {fileID: 459307421}
   m_Layer: 0
   m_Name: Door (7)
   m_TagString: Untagged
@@ -5595,19 +5552,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &459307421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459307418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &459307422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5620,7 +5564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &462239578
 GameObject:
   m_ObjectHideFlags: 0
@@ -5759,7 +5703,6 @@ GameObject:
   - component: {fileID: 512133108}
   - component: {fileID: 512133109}
   - component: {fileID: 512133111}
-  - component: {fileID: 512133110}
   m_Layer: 0
   m_Name: Door (5)
   m_TagString: Untagged
@@ -5837,19 +5780,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &512133110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 512133107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &512133111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5862,7 +5792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6000,6 +5930,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &560338444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560338445}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560338445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560338444}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.83493, y: 11.79686, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &562746181
 GameObject:
   m_ObjectHideFlags: 0
@@ -6057,7 +6018,6 @@ GameObject:
   - component: {fileID: 599214086}
   - component: {fileID: 599214087}
   - component: {fileID: 599214089}
-  - component: {fileID: 599214088}
   m_Layer: 0
   m_Name: Door (6)
   m_TagString: Untagged
@@ -6135,19 +6095,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &599214088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599214085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &599214089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6160,7 +6107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -6336,7 +6283,6 @@ GameObject:
   - component: {fileID: 658426170}
   - component: {fileID: 658426171}
   - component: {fileID: 658426173}
-  - component: {fileID: 658426172}
   m_Layer: 0
   m_Name: Door (12)
   m_TagString: Untagged
@@ -6414,19 +6360,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &658426172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658426169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &658426173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6439,7 +6372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &665067849
 GameObject:
   m_ObjectHideFlags: 0
@@ -6450,7 +6383,6 @@ GameObject:
   m_Component:
   - component: {fileID: 665067850}
   - component: {fileID: 665067851}
-  - component: {fileID: 665067852}
   m_Layer: 0
   m_Name: FalseAlarm
   m_TagString: Untagged
@@ -6528,19 +6460,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &665067852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665067849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!4 &674126678 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -6635,7 +6554,6 @@ GameObject:
   - component: {fileID: 779255752}
   - component: {fileID: 779255753}
   - component: {fileID: 779255755}
-  - component: {fileID: 779255754}
   m_Layer: 0
   m_Name: Door (9)
   m_TagString: Untagged
@@ -6713,19 +6631,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &779255754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779255751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &779255755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6738,7 +6643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &863728903 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -6756,7 +6661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!1001 &912874317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6941,7 +6846,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1062757986}
   - component: {fileID: 1062757985}
-  - component: {fileID: 1062757987}
   m_Layer: 0
   m_Name: FalseAlarm2
   m_TagString: Untagged
@@ -7019,19 +6923,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1388392388}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1062757987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1062757984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!1 &1085715670
 GameObject:
   m_ObjectHideFlags: 0
@@ -7043,7 +6934,6 @@ GameObject:
   - component: {fileID: 1085715671}
   - component: {fileID: 1085715672}
   - component: {fileID: 1085715674}
-  - component: {fileID: 1085715673}
   m_Layer: 0
   m_Name: Door (2)
   m_TagString: Untagged
@@ -7121,19 +7011,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1085715673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085715670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &1085715674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7146,7 +7023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &1097606550
 GameObject:
   m_ObjectHideFlags: 0
@@ -7158,7 +7035,6 @@ GameObject:
   - component: {fileID: 1097606551}
   - component: {fileID: 1097606552}
   - component: {fileID: 1097606554}
-  - component: {fileID: 1097606553}
   m_Layer: 0
   m_Name: Door (4)
   m_TagString: Untagged
@@ -7236,19 +7112,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1097606553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097606550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &1097606554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7261,7 +7124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1001 &1177273152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7346,7 +7209,6 @@ GameObject:
   - component: {fileID: 1254478460}
   - component: {fileID: 1254478461}
   - component: {fileID: 1254478463}
-  - component: {fileID: 1254478462}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -7424,19 +7286,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1254478462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254478459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &1254478463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7449,7 +7298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &1322562243
 GameObject:
   m_ObjectHideFlags: 0
@@ -7899,7 +7748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!1 &1487059869
 GameObject:
   m_ObjectHideFlags: 0
@@ -7962,7 +7811,6 @@ GameObject:
   - component: {fileID: 1507338377}
   - component: {fileID: 1507338378}
   - component: {fileID: 1507338380}
-  - component: {fileID: 1507338379}
   m_Layer: 0
   m_Name: Door (3)
   m_TagString: Untagged
@@ -8040,19 +7888,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1507338379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507338376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &1507338380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8065,7 +7900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1001 &1508651560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8156,7 +7991,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1514435577}
   - component: {fileID: 1514435578}
-  - component: {fileID: 1514435579}
   m_Layer: 0
   m_Name: FalseAlarm3
   m_TagString: Untagged
@@ -8234,19 +8068,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1514435579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514435576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!1001 &1559885572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8442,7 +8263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!4 &1640872289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -8619,7 +8440,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1695722492}
   - component: {fileID: 1695722493}
-  - component: {fileID: 1695722494}
   m_Layer: 0
   m_Name: FalseAlarm5
   m_TagString: Untagged
@@ -8697,19 +8517,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1695722494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695722491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!1 &1696443212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -8727,7 +8534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!1 &1729674141 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -8745,7 +8552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!1 &1769673251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -8775,7 +8582,6 @@ GameObject:
   - component: {fileID: 1789200941}
   - component: {fileID: 1789200942}
   - component: {fileID: 1789200944}
-  - component: {fileID: 1789200943}
   m_Layer: 0
   m_Name: Door (1)
   m_TagString: Untagged
@@ -8853,19 +8659,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1789200943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789200940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &1789200944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8878,7 +8671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &1795838584 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -8896,7 +8689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!1 &1810423968 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -8924,7 +8717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
 --- !u!4 &1958220624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -8942,7 +8735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!4 &2051411203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -9046,7 +8839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
 --- !u!4 &2097733921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 42e8492221b6b4ed49c3af3fc074a9a8, type: 3}
@@ -9076,7 +8869,6 @@ GameObject:
   - component: {fileID: 2136214578}
   - component: {fileID: 2136214579}
   - component: {fileID: 2136214581}
-  - component: {fileID: 2136214580}
   m_Layer: 0
   m_Name: Door (8)
   m_TagString: Untagged
@@ -9154,19 +8946,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2136214580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136214577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &2136214581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9179,7 +8958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1 &2143515243
 GameObject:
   m_ObjectHideFlags: 0
@@ -9191,7 +8970,6 @@ GameObject:
   - component: {fileID: 2143515244}
   - component: {fileID: 2143515245}
   - component: {fileID: 2143515247}
-  - component: {fileID: 2143515246}
   m_Layer: 0
   m_Name: Door (11)
   m_TagString: Untagged
@@ -9269,19 +9047,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2143515246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143515243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!114 &2143515247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9294,7 +9059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3573b3d267dd7a741a2c1fc9d75500ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 3
 --- !u!1001 &2146475349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9368,6 +9133,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 560338445}
   - {fileID: 619394802}
   - {fileID: 986902348}
   - {fileID: 1487059870}
