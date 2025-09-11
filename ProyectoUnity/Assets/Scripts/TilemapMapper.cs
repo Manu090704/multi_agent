@@ -10,14 +10,17 @@ public class TilemapMapper : MonoBehaviour
     // Convierte coordenadas de la simulación (row, col) → posición en Unity
     public Vector3 GridToWorld(int row, int col)
     {
-        // Si quieres usar el Tilemap directamente
         if (tilemap != null)
         {
+            // Columna → X, Fila → Y invertida
             Vector3Int cell = new Vector3Int(col, -row, 0);
-            return tilemap.CellToWorld(cell) + (Vector3)offset;
+
+            // Ajusta al centro del tile
+            return tilemap.CellToWorld(cell) + new Vector3(0.5f, 0.5f, 0);
         }
 
-        // Si no usas Tilemap, calcula manualmente
         return new Vector3(col * cellSize + offset.x, -row * cellSize + offset.y, 0);
     }
+
+
 }

@@ -14,10 +14,9 @@ public enum SpriteType
 public class ModelBehaviour : MonoBehaviour
 {
     public SpriteType type;
-    public int Id;          // índice en el arreglo JSON
-    public int AgentIndex;  // solo aplica para ranas
+    public int Id;          
+    public int AgentIndex;  
 
-    // Variables internas
     private Vector2Int gridPos;
     private int state;
     private int AP;
@@ -25,27 +24,30 @@ public class ModelBehaviour : MonoBehaviour
 
     private TilemapMapper mapper;
 
-    void Awake()
+    void Start()
     {
-        mapper = FindObjectOfType<TilemapMapper>();
+        mapper = FindFirstObjectByType<TilemapMapper>();
     }
 
-    // Método llamado por NetworkManager
     public void UpdateData(JObject data, SpriteType t)
     {
+        if (mapper == null) return;
+
         switch (t)
         {
             case SpriteType.Frog:
                 if (AgentIndex < ((JArray)data["agent_pos"]).Count)
                 {
                     JArray frogPos = (JArray)data["agent_pos"][AgentIndex];
-                    gridPos = new Vector2Int((int)frogPos[0], (int)frogPos[1]);
+                    int r = (int)frogPos[0];
+                    int c = (int)frogPos[1];
 
+                    gridPos = new Vector2Int(r, c);
                     AP = (int)data["agent_ap"][AgentIndex];
                     carry = (bool)data["agent_carry"][AgentIndex];
 
-                    // usar mapper
-                    transform.position = mapper.GridToWorld(gridPos.x, gridPos.y);
+                    // Mover rana sobre el mapa
+                    transform.position = mapper.GridToWorld(r, c);
                 }
                 break;
 
@@ -74,18 +76,14 @@ public class ModelBehaviour : MonoBehaviour
                     bool revealed = (bool)p[3];
 
                     gridPos = new Vector2Int(r, c);
-                    transform.position = mapper.GridToWorld(gridPos.x, gridPos.y);
+                    transform.position = mapper.GridToWorld(r, c);
 
                     if (revealed)
                     {
                         if (t == SpriteType.FalseAlarm && role == "f")
-                        {
                             gameObject.SetActive(false);
-                        }
                         else if (t == SpriteType.Victim && role == "v")
-                        {
                             GetComponent<SpriteRenderer>().color = Color.green;
-                        }
                     }
                 }
                 break;
@@ -96,15 +94,7 @@ public class ModelBehaviour : MonoBehaviour
                 {
                     JArray d = (JArray)doors[Id];
                     int state = (int)d[2];
-                    // TODO: actualizar sprite según estado
-                }
-                break;
-
-            case SpriteType.Wall:
-                JArray damages = (JArray)data["wall_damages"];
-                if (Id < damages.Count)
-                {
-                    // TODO: actualizar sprite según daño usando damages[Id]
+                    // TODO: animar sprite según estado
                 }
                 break;
         }
