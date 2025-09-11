@@ -77,10 +77,11 @@ public class NetworkManager : MonoBehaviour
     {
         try
         {
-            Debug.Log("📨 JSON recibido: " + json);
+            Debug.Log("JSON recibido: " + json);
             JObject data = JObject.Parse(json);
+            var objs = FindObjectsByType<ModelBehaviour>(FindObjectsSortMode.None);
             
-            foreach (var obj in FindObjectsByType<ModelBehaviour>(FindObjectsSortMode.None))
+            foreach (var obj in objs)
             {
                 obj.UpdateData(data, obj.type);
             }
@@ -89,7 +90,7 @@ public class NetworkManager : MonoBehaviour
         }
         catch (Exception e)
         {
-            Debug.LogError("❌ Error al manejar JSON. String: " + json + " || Error: " + e.Message);
+            Debug.LogError("Error al manejar JSON. String: " + json + " || Error: " + e.Message);
         }
     }
 
